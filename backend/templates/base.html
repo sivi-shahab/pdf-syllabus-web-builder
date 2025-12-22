@@ -1,0 +1,23 @@
+<!-- backend/templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{TITLE}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Syllabus web page generated automatically from PDF using PaddleOCR and ERNIE"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>{{TITLE}}</h1>
+      <p>Generated automatically from a PDF syllabus using PaddleOCR & ERNIE.</p>
+    </header>
+    <main>
+      {{CONTENT}}
+    </main>
+  </body>
+</html>
